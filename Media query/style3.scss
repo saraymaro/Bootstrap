@@ -1,0 +1,23 @@
+// APARTADO 2
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+body{
+    background-color: red;
+}
+
+@include media-breakpoint-between(sm, md) { 
+    body{
+        background-color: red;
+    }
+ }
+
+ @include media-breakpoint-between(lg, container-fluid) { 
+    body{
+        background-color: yellowgreen;
+    }
+ }

@@ -1,0 +1,19 @@
+// APARTADO 1
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+@media (min-width: 0px) and (max-width: 250px) { 
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 500px) { 
+    body{
+        background-color: yellowgreen;
+    }
+}
