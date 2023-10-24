@@ -1,0 +1,10 @@
+$primary: yellowgreen;
+$secondary: rgb(0, 234, 255);
+$success: rgb(248, 245, 89);
+$info: orange;
+$warning: rgb(123, 65, 123);
+$danger: darkred;
+$light: crimson;
+$dark: lightgray;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
